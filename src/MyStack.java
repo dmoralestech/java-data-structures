@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
  * Date: 7/03/14
  * Time: 1:03 PM
  */
-public class Stack<Item> implements Iterable<Item> {
+public class MyStack<Item> implements Iterable<Item> {
     private int N;
     private Node<Item> first;
 
@@ -15,7 +15,7 @@ public class Stack<Item> implements Iterable<Item> {
         private Node<Item> next;
     }
 
-    public Stack() {
+    public MyStack() {
         first  = null;
         N = 0;
     }

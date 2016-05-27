@@ -21,7 +21,7 @@ import java.util.NoSuchElementException;
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
-public class Queue<Item> implements Iterable<Item> {
+public class MyQueue<Item> implements Iterable<Item> {
     private int N;               // number of elements on queue
     private Node<Item> first;    // beginning of queue
     private Node<Item> last;     // end of queue
@@ -35,7 +35,7 @@ public class Queue<Item> implements Iterable<Item> {
     /**
      * Initializes an empty queue.
      */
-    public Queue() {
+    public MyQueue() {
         first = null;
         last  = null;
         N = 0;

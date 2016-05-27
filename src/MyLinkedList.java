@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
  * Date: 3/03/14
  * Time: 12:07 PM
  */
-public class LinkedList<Item> implements Iterable<Item> {
+public class MyLinkedList<Item> implements Iterable<Item> {
     private int N;          // size of the stack
     private Node first;     // top of stack
 
@@ -19,7 +19,7 @@ public class LinkedList<Item> implements Iterable<Item> {
     /**
      * Initializes an empty stack.
      */
-    public LinkedList() {
+    public MyLinkedList() {
         first = null;
         N = 0;
         assert check();
