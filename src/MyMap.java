@@ -1,4 +1,5 @@
 import java.util.Collection;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -6,6 +7,8 @@ import java.util.Set;
  * Date: 28/02/14
  * Time: 11:04 AM
  */
+
+
 public interface MyMap<K, V> {
 
     Collection<V> getValues();
